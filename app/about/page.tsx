@@ -12,7 +12,7 @@ export default function AboutPage() {
       <div className="relative bg-[#29231F] text-[#FAF7F2] py-20 lg:py-28 border-b border-[#3D3530] overflow-hidden">
         <div className="absolute inset-0 opacity-20 pointer-events-none">
           <Image
-            src="https://www.indiacz.com/image/cache/catalog/NECKLACE SET/STARLIGHT/S020001237-768x768.jpg"
+            src="https://www.indiacz.com/image/cache/catalog/NECKLACE%20SET/STARLIGHT/S020001237-768x768.jpg"
             alt="About Banner"
             fill
             className="object-cover"
@@ -51,7 +51,7 @@ export default function AboutPage() {
           </div>
 
           <div className="md:col-span-6">
-            <div className="relative aspect-4/3 overflow-hidden border-2 border-[#E8DFD5] bg-white p-3 shadow-xl">
+            <div className="relative aspect-[4/3] overflow-hidden border-2 border-[#E8DFD5] bg-white p-3 shadow-xl">
               <Image
                 src="https://www.indiacz.com/image/cache/catalog/DRUZY/EARINGS/BASEL/B012001500-768x768.jpg"
                 alt="Jewellery Craftsmanship"

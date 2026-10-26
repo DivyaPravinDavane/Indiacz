@@ -83,9 +83,9 @@ export default function MegaMenu() {
                   Royal chokers and grand multi-tier necklace sets handcrafted for Indian weddings.
                 </p>
               </div>
-              <div className="relative aspect-4/3 w-full overflow-hidden border border-[#E8DFD5] mb-3">
+              <div className="relative aspect-[4/3] w-full overflow-hidden border border-[#E8DFD5] mb-3">
                 <Image
-                  src="https://www.indiacz.com/image/cache/catalog/NECKLACE SET/STARLIGHT/S020001237-768x768.jpg"
+                  src="https://www.indiacz.com/image/cache/catalog/NECKLACE%20SET/STARLIGHT/S020001237-768x768.jpg"
                   alt="Bridal Jewellery"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-500"
@@ -113,7 +113,7 @@ export default function MegaMenu() {
                   Chandelier drops and pavé huggies in 24K dual micron gold and rhodium finish.
                 </p>
               </div>
-              <div className="relative aspect-4/3 w-full overflow-hidden border border-[#E8DFD5] mb-3">
+              <div className="relative aspect-[4/3] w-full overflow-hidden border border-[#E8DFD5] mb-3">
                 <Image
                   src="https://www.indiacz.com/image/cache/catalog/DRUZY/EARINGS/BASEL/B012001500-768x768.jpg"
                   alt="Earrings Collection"

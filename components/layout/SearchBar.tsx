@@ -108,7 +108,10 @@ export default function SearchBar({ isOpen, onClose }: SearchBarProps) {
                   onClick={onClose}
                   className="flex items-center gap-3 p-2 hover:bg-[#FAF7F2] border border-transparent hover:border-[#E8DFD5] transition-colors group"
                 >
-                  <div className="relative w-14 h-14 bg-[#FAF7F2] border border-[#E8DFD5] shrink-0 overflow-hidden">
+                  <div
+                    className="relative w-14 h-14 bg-[#FAF7F2] border border-[#E8DFD5] shrink-0 overflow-hidden"
+                    style={{ position: 'relative' }}
+                  >
                     <Image
                       src={product.image}
                       alt={product.title}

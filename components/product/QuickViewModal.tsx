@@ -55,7 +55,7 @@ export default function QuickViewModal() {
         <div className="grid grid-cols-1 md:grid-cols-2">
           {/* Left: Product Image */}
           <div className="relative aspect-square md:aspect-auto md:h-full bg-[#FAF7F2] p-6 flex items-center justify-center border-b md:border-b-0 md:border-r border-[#E8DFD5]">
-            <div className="relative w-full h-[320px] md:h-[450px]">
+            <div className="relative w-full h-[320px] md:h-[450px]" style={{ position: 'relative' }}>
               <Image
                 src={displayImage}
                 alt={quickViewProduct.title}

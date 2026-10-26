@@ -57,10 +57,10 @@ export default function BrandStorySection() {
           {/* Visual Column */}
           <div className="lg:col-span-6 relative">
             <div className="relative mx-auto max-w-md lg:max-w-none">
-              <div className="relative aspect-4/3 overflow-hidden border-2 border-[#E8DFD5] bg-white shadow-xl p-3">
+              <div className="relative aspect-[4/3] overflow-hidden border-2 border-[#E8DFD5] bg-white shadow-xl p-3">
                 <div className="relative w-full h-full overflow-hidden bg-[#FAF7F2]">
                   <Image
-                    src="https://www.indiacz.com/image/cache/catalog/NECKLACE SET/STARLIGHT/S020001236-768x768.jpg"
+                    src="https://www.indiacz.com/image/cache/catalog/NECKLACE%20SET/STARLIGHT/S020001236-768x768.jpg"
                     alt="IndiaCZ Craftsmanship Zaveri Bazaar"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"

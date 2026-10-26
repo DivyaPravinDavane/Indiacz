@@ -60,7 +60,11 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
       </button>
 
       {/* Image Container with zoom */}
-      <Link href={`/product/${product.id}`} className="block relative aspect-square overflow-hidden bg-[#FAF7F2]">
+      <Link
+        href={`/product/${product.id}`}
+        className="block relative aspect-square overflow-hidden bg-[#FAF7F2]"
+        style={{ position: 'relative', width: '100%', aspectRatio: '1 / 1', display: 'block' }}
+      >
         <Image
           src={displayImage}
           alt={product.title}

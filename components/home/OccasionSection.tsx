@@ -10,7 +10,7 @@ export default function OccasionSection() {
     {
       title: 'Wedding Jewellery',
       subtitle: 'Imperial Grandeur for Nuptial Vows',
-      image: 'https://www.indiacz.com/image/cache/catalog/NECKLACE SET/STARLIGHT/S020001237-768x768.jpg',
+      image: 'https://www.indiacz.com/image/cache/catalog/NECKLACE%20SET/STARLIGHT/S020001237-768x768.jpg',
       link: '/shop?occasion=Wedding',
       count: '65+ Designs',
     },
@@ -76,7 +76,7 @@ export default function OccasionSection() {
               href={occ.link}
               className="group relative overflow-hidden bg-white border border-[#E8DFD5] hover:border-[#C6A56B] transition-all duration-500 shadow-xs hover:shadow-xl flex flex-col justify-between"
             >
-              <div className="relative aspect-4/3 w-full overflow-hidden bg-[#FAF7F2]">
+              <div className="relative aspect-[4/3] w-full overflow-hidden bg-[#FAF7F2]">
                 <Image
                   src={occ.image}
                   alt={occ.title}

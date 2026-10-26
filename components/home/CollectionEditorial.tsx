@@ -13,7 +13,7 @@ export default function CollectionEditorial() {
       title: 'The Imperial Bridal Edit',
       subtitle: 'Opulent ceremonial chokers & cascading harams',
       description: 'Crafted for the majestic modern bride. Meticulous hand-set AAA+ American Diamond CZ and uncut polki motifs crafted in 24K micron gold finish for timeless matrimonial grandeur.',
-      image: 'https://www.indiacz.com/image/cache/catalog/NECKLACE SET/STARLIGHT/S020001237-768x768.jpg',
+      image: 'https://www.indiacz.com/image/cache/catalog/NECKLACE%20SET/STARLIGHT/S020001237-768x768.jpg',
       link: '/category/necklace-sets',
       dnCode: 'S020001237',
     },
@@ -84,7 +84,7 @@ export default function CollectionEditorial() {
                   }`}
                 >
                   <div className="relative group bg-white p-3 sm:p-4 border border-[#E8DFD5] shadow-lg hover:shadow-2xl transition-all duration-700">
-                    <div className="relative aspect-16/10 overflow-hidden bg-[#FAF7F2]">
+                    <div className="relative aspect-[16/10] overflow-hidden bg-[#FAF7F2]">
                       <Image
                         src={col.image}
                         alt={col.title}

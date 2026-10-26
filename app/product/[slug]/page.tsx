@@ -80,6 +80,7 @@ export default function ProductDetailPage({ params }: ProductPageProps) {
           <div className="lg:col-span-7 space-y-4">
             <div
               className="relative aspect-square w-full bg-[#FAF7F2] border border-[#E8DFD5] overflow-hidden cursor-crosshair group"
+              style={{ position: 'relative', width: '100%', aspectRatio: '1 / 1' }}
               onClick={() => setIsZoomed(!isZoomed)}
             >
               <Image

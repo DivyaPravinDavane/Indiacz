@@ -37,7 +37,7 @@ export default function CategoryGrid() {
                 }`}
               >
                 {/* Image Container */}
-                <div className={`relative w-full overflow-hidden bg-[#FAF7F2] ${isFeatured ? 'aspect-16/9 sm:aspect-2/1' : 'aspect-square'}`}>
+                <div className={`relative w-full overflow-hidden bg-[#FAF7F2] ${isFeatured ? 'aspect-[16/9] sm:aspect-[2/1]' : 'aspect-square'}`}>
                   <Image
                     src={cat.image}
                     alt={cat.name}

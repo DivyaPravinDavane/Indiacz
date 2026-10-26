@@ -71,7 +71,7 @@ function ShopContent() {
       <div className="relative bg-[#29231F] text-[#FAF7F2] py-16 lg:py-20 border-b border-[#3D3530] overflow-hidden">
         <div className="absolute inset-0 opacity-20 pointer-events-none">
           <Image
-            src="https://www.indiacz.com/image/cache/catalog/NECKLACE SET/STARLIGHT/S020001237-768x768.jpg"
+            src="https://www.indiacz.com/image/cache/catalog/NECKLACE%20SET/STARLIGHT/S020001237-768x768.jpg"
             alt="Showroom Banner"
             fill
             className="object-cover"

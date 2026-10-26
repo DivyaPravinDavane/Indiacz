@@ -75,7 +75,10 @@ export default function WishlistDrawer() {
                     key={product.id}
                     className="flex gap-3 p-3 bg-[#FAF7F2] border border-[#E8DFD5] relative group"
                   >
-                    <div className="relative w-20 h-20 bg-white border border-[#E8DFD5] shrink-0 overflow-hidden">
+                    <div
+                      className="relative w-20 h-20 bg-white border border-[#E8DFD5] shrink-0 overflow-hidden"
+                      style={{ position: 'relative' }}
+                    >
                       <Image
                         src={product.image}
                         alt={product.title}

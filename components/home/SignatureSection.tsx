@@ -13,7 +13,7 @@ export default function SignatureSection() {
           {/* Visual Side */}
           <div className="lg:col-span-6 relative">
             <div className="relative mx-auto max-w-md lg:max-w-none">
-              <div className="relative aspect-square sm:aspect-4/3 overflow-hidden border-2 border-[#C6A56B]/40 bg-[#211B18] shadow-2xl p-4">
+              <div className="relative aspect-square sm:aspect-[4/3] overflow-hidden border-2 border-[#C6A56B]/40 bg-[#211B18] shadow-2xl p-4">
                 <div className="relative w-full h-full overflow-hidden">
                   <Image
                     src="https://www.indiacz.com/image/cache/catalog/DRUZY/NECKLACE/BASEL/B012001652-768x768.jpg"

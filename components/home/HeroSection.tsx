@@ -63,10 +63,10 @@ export default function HeroSection() {
           <div className="lg:col-span-6 relative">
             <div className="relative mx-auto max-w-md lg:max-w-none">
               {/* Main Grand Image Frame */}
-              <div className="relative aspect-4/5 overflow-hidden border-2 border-[#E8DFD5] bg-white shadow-2xl p-3">
+              <div className="relative aspect-[4/5] overflow-hidden border-2 border-[#E8DFD5] bg-white shadow-2xl p-3">
                 <div className="relative w-full h-full overflow-hidden bg-[#FAF7F2]">
                   <Image
-                    src="https://www.indiacz.com/image/cache/catalog/NECKLACE SET/STARLIGHT/S020001237-768x768.jpg"
+                    src="https://www.indiacz.com/image/cache/catalog/NECKLACE%20SET/STARLIGHT/S020001237-768x768.jpg"
                     alt="IndiaCZ Grand Bridal Starlight CZ Necklace Set"
                     fill
                     priority

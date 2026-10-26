@@ -9,7 +9,7 @@ export default function InspirationGallery() {
   const galleryItems = [
     {
       id: 1,
-      image: 'https://www.indiacz.com/image/cache/catalog/NECKLACE SET/STARLIGHT/S020001237-768x768.jpg',
+      image: 'https://www.indiacz.com/image/cache/catalog/NECKLACE%20SET/STARLIGHT/S020001237-768x768.jpg',
       title: 'Starlight Choker Layering',
       category: 'Bridal Couture',
       aspect: 'aspect-square',
@@ -19,7 +19,7 @@ export default function InspirationGallery() {
       image: 'https://www.indiacz.com/image/cache/catalog/DRUZY/EARINGS/BASEL/B012001500-768x768.jpg',
       title: 'Emerald Green Basel Chandelier',
       category: 'Earring Styling',
-      aspect: 'aspect-3/4',
+      aspect: 'aspect-[3/4]',
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export default function InspirationGallery() {
       image: 'https://www.indiacz.com/image/cache/catalog/DRUZY/FINGER RING/KHUSHI/K996000134-768x768.jpg',
       title: 'Marquise Halo Cocktail Ring',
       category: 'Statement Rings',
-      aspect: 'aspect-3/4',
+      aspect: 'aspect-[3/4]',
     },
     {
       id: 5,
@@ -44,7 +44,7 @@ export default function InspirationGallery() {
     },
     {
       id: 6,
-      image: 'https://www.indiacz.com/image/cache/catalog/NECKLACE SET/STARLIGHT/S020001236-768x768.jpg',
+      image: 'https://www.indiacz.com/image/cache/catalog/NECKLACE%20SET/STARLIGHT/S020001236-768x768.jpg',
       title: 'Collar Choker Elegance',
       category: 'Red Carpet Gala',
       aspect: 'aspect-square',
