@@ -11,12 +11,12 @@ export default function HeroSection() {
       {/* Subtle luxury ambient background glow */}
       <div className="absolute top-0 right-1/4 w-96 h-96 bg-[#C6A56B]/8 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-12 sm:pt-6 sm:pb-16 lg:pt-8 lg:pb-16">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-1 sm:pt-2 lg:pt-3 pb-10 sm:pb-14 lg:pb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           {/* Left Column: Bold, Dramatic Editorial Headline & Copy */}
-          <div className="lg:col-span-6 space-y-5 text-center lg:text-left">
+          <div className="lg:col-span-6 space-y-4 text-center lg:text-left pt-1 sm:pt-2 lg:pt-3">
             {/* Top Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white border border-[#C6A56B] shadow-xs text-[11px] sm:text-xs uppercase tracking-[0.25em] text-[#542432] font-bold">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 bg-white border border-[#C6A56B] shadow-xs text-[10px] sm:text-xs uppercase tracking-[0.25em] text-[#542432] font-bold">
               <Sparkles className="w-3.5 h-3.5 text-[#C6A56B] fill-[#C6A56B]" />
               <span>Haute Joaillerie • 2026 Wholesale Campaign</span>
             </div>
